@@ -1,8 +1,3 @@
-# fudamento-de-big-data
-Avaliações da matéria de FBD
-
-todos estes comandos são rodados dentro da VM da PUC pr utilizando o X2Go Client
-
 enviar as bases para o hadoop
 
 hadoop fs -copyFromLocal /home/Disciplinas/FundamentosBigData/RelacaoComercial/Cliente.csv /databases/
@@ -41,5 +36,14 @@ cat s14/Empresa5/q4/resultado | sort -r -n > s14/Empresa5/q4/output.txt && cat s
 upload
 
 curl --upload-file s14/Empresa5/q1/output.txt https://transfer.sh/output.txt && curl --upload-file s14/Empresa5/q2/output.txt https://transfer.sh/output.txt && curl --upload-file s14/Empresa5/q3/output.txt https://transfer.sh/output.txt && curl --upload-file s14/Empresa5/q4/output.txt https://transfer.sh/output.txt && curl --upload-file s14/Empresa5/q5/output.txt https://transfer.sh/output.txt && curl --upload-file s14/Empresa5/q5/output_cl.txt https://transfer.sh/output_cl.txt 
+
+
+
+
+
+
+
+
+
 
 
